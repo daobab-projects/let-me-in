@@ -1,0 +1,8 @@
+
+daobab:
+  hello:
+    url: jdbc:mysql://127.0.0.1:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false
+    user: root
+    pass: admin
+    driverClassName: com.mysql.cj.jdbc.Driver
+
