@@ -17,7 +17,7 @@ Put the proper parameters to connect to your database.
 Run the Application class
 
 Check out the console. Daobab connector should validate the database connection.
-If everyrthing is fine, you can find something like this:
+If everything is fine, you can find something like this:
 
 <code>
 <br>Connection OK. Database: MySQL version: 8.0 driver: MySQL Connector/J
@@ -48,7 +48,7 @@ Go to step2_generateClasses() method:
 Decide where Daobab may write the classes:
 <code>generator.setPath("C:\\Daobab\\");</code>
 
-Decide which catalogie or schema you want to handle:
+Decide which catalogue or schema you want to handle:
 <code>
         generator.generateOnlyForCatalogues("catalogue");
         generator.generateOnlyForSchemas("schema");
