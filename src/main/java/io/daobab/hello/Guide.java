@@ -34,13 +34,13 @@ public class Guide {
     }
 
     public void step2_generateClasses() {
-        //STEP 2: gererate classes
+        //STEP 2: generate classes
         generator.setLanguage(TemplateLanguage.JAVA);
         generator.setPackage("io.daobab.hello.dao");
         //where to write output classes
         generator.setPath("C:\\Daobab\\");
 
-        //your databasase may contain many catalogues or schemas,
+        //your database may contain many catalogues or schemas,
         //it's printed at step 1
         //here you can limit the scope to particular catalog and schema
 
